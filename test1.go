@@ -72,4 +72,12 @@ func main() {
 	var s int
 	var n string
 	fmt.Printf("%v %v %v %q", f, y, s, n)
+
+	var k1 int = 34
+	l := float64(k1)
+	m := uint(l)
+	var t, u int = 18, 19
+	var o float64 = math.Sqrt(float64(t*t + u*u))
+	var z = uint(o)
+	fmt.Println(t, u, z, k, l, m, k, k1 )
 }
