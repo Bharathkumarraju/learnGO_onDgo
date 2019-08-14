@@ -17,6 +17,10 @@ func bkr_add(x int, y int) int {
 	return x + y
 }
 
+func bkr_multiply(a, b int) int {
+	return a * b
+}
+
 func main() {
 	fmt.Println("Hello This is my first GO program")
 //	print(os.Hostname())
@@ -27,4 +31,5 @@ func main() {
 	fmt.Printf("Now we have %g problems", math.Sqrt(81))
     fmt.Println("The Pi value is ", math.Pi)
 	fmt.Println(bkr_add(287485, 39539354))
+	fmt.Println(bkr_multiply(3565636, 3453453))
 }
