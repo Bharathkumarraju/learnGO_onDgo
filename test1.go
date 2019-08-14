@@ -14,6 +14,7 @@ identifies the entry point of an application.
  */
 
 var c,python,java bool
+var i, j int = 1, 2
 
 func bkr_add(x int, y int) int {
 	return x + y
@@ -51,4 +52,6 @@ func main() {
 	fmt.Println(bkr_spilt(18))
 	var i int
 	fmt.Println(i, c, python, java)
+	var c, python, java = true, false, "no!"
+	fmt.Println(i, j, c, python, java)
 }
