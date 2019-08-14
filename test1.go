@@ -67,4 +67,9 @@ func main() {
 	fmt.Printf("Type: %T Value: %v \n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v \n", MaxInt, MaxInt)
 	fmt.Printf("Type: %T value: %v \n", z, z)
+	var f float64
+	var y bool
+	var s int
+	var n string
+	fmt.Printf("%v %v %v %q", f, y, s, n)
 }
