@@ -13,7 +13,7 @@ The main function, when part of the main package,
 identifies the entry point of an application.
  */
 
-var c,python,java bool
+//var c,python,java bool
 var i, j int = 1, 2
 
 func bkr_add(x int, y int) int {
@@ -50,8 +50,11 @@ func main() {
 	a, b := bkr_swap("SRI ANJANEYAM", "PRASANNA ANAJANEYAM")
 	fmt.Println(a, b)
 	fmt.Println(bkr_spilt(18))
-	var i int
-	fmt.Println(i, c, python, java)
-	var c, python, java = true, false, "no!"
+	//var z int
+//	fmt.Println(i, c, python, java)
+	var c, python, java = true, "yes!", "no!"
 	fmt.Println(i, j, c, python, java)
+	var i, j int = 18, 19
+	k := 46675
+	fmt.Println(i, j, k, c, python, java)
 }
