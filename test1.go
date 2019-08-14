@@ -4,6 +4,8 @@ package main
 // without repeating the "import" keyword.
 import (
 	"fmt"
+	"math"
+	"math/rand"
 	"time"
 )
 /*
@@ -16,5 +18,8 @@ func main() {
 //	print(os.Hostname())
     fmt.Println("The time is now is", time.Now())
 //	fmt.Println("The hostname of your machine is", os.Hostname())
+    fmt.Println("the random number is", rand.Intn(18))
+	fmt.Println("The random number with rand seed is", rand.Seed)
+	fmt.Printf("Now we have %g problems", math.Sqrt(81))
 
 }
