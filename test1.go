@@ -13,6 +13,8 @@ The main function, when part of the main package,
 identifies the entry point of an application.
  */
 
+var c,python,java bool
+
 func bkr_add(x int, y int) int {
 	return x + y
 }
@@ -31,6 +33,8 @@ func bkr_spilt(sum int) (x, y int)  {
 	return
 }
 
+
+
 func main() {
 	fmt.Println("Hello This is my first GO program")
 //	print(os.Hostname())
@@ -45,4 +49,6 @@ func main() {
 	a, b := bkr_swap("SRI ANJANEYAM", "PRASANNA ANAJANEYAM")
 	fmt.Println(a, b)
 	fmt.Println(bkr_spilt(18))
+	var i int
+	fmt.Println(i, c, python, java)
 }
