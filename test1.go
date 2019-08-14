@@ -21,5 +21,5 @@ func main() {
     fmt.Println("the random number is", rand.Intn(18))
 	fmt.Println("The random number with rand seed is", rand.Seed)
 	fmt.Printf("Now we have %g problems", math.Sqrt(81))
-
+    fmt.Println("The Pi value is ", math.Pi)
 }
