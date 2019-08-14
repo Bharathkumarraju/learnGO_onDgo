@@ -13,6 +13,10 @@ The main function, when part of the main package,
 identifies the entry point of an application.
  */
 
+func bkr_add(x int, y int) int {
+	return x + y
+}
+
 func main() {
 	fmt.Println("Hello This is my first GO program")
 //	print(os.Hostname())
@@ -22,4 +26,5 @@ func main() {
 	fmt.Println("The random number with rand seed is", rand.Seed)
 	fmt.Printf("Now we have %g problems", math.Sqrt(81))
     fmt.Println("The Pi value is ", math.Pi)
+	fmt.Println(bkr_add(287485, 39539354))
 }
