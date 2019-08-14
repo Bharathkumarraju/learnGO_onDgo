@@ -1,4 +1,4 @@
-package main
+package test_functions
 
 // This is an import block it allows multiple packages to be imported
 // without repeating the "import" keyword.
@@ -13,7 +13,7 @@ import (
 The main function, when part of the main package,
 identifies the entry point of an application.
  */
-
+const Pi  = 3.14
 var (
 	ToBe bool = false
 	MaxInt uint64 = 1<<64 -1
@@ -80,4 +80,12 @@ func main() {
 	var o float64 = math.Sqrt(float64(t*t + u*u))
 	var z = uint(o)
 	fmt.Println(t, u, z, k, l, m, k, k1 )
+	h := 43.6454
+	fmt.Printf("h is of type %T\n", h)
+	const world  = "世界"
+	fmt.Println("hello",world)
+	fmt.Println("happy", Pi , "Day")
+	const TRUTH = "true"
+	fmt.Println("Go rules?", TRUTH)
+
 }
