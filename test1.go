@@ -21,6 +21,10 @@ func bkr_multiply(a, b int) int {
 	return a * b
 }
 
+func bkr_swap(x, y string) (string, string)  {
+	return y, x
+}
+
 func main() {
 	fmt.Println("Hello This is my first GO program")
 //	print(os.Hostname())
@@ -32,4 +36,6 @@ func main() {
     fmt.Println("The Pi value is ", math.Pi)
 	fmt.Println(bkr_add(287485, 39539354))
 	fmt.Println(bkr_multiply(3565636, 3453453))
+	a, b := bkr_swap("SRI ANJANEYAM", "PRASANNA ANAJANEYAM")
+	fmt.Println(a, b)
 }
